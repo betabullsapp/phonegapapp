@@ -1,0 +1,114 @@
+body{
+  background-color: #e3d9cb;
+  overflow-x:hidden;
+}
+.searchbox{
+/*definint width of form element*/
+   
+/*centering the form element*/
+    margin:0px auto;
+}
+input[type="search"]{
+    padding:5px 0px 5px 30px;
+    font-size:18px;
+    color:#1f5350;
+/*removing boder from search box*/
+    border: 1px solid;
+/*defining background image as a search symbol*/
+    background-image:url("../images/download.png");
+    background-repeat:no-repeat;
+/*background-size*/
+-webkit-background-size:15px 15px;
+   -moz-background-size:15px 15px;
+     -o-background-size:15px 15px;
+        background-size:15px 15px;
+/*positioning background image*/
+    background-position:10px 8px;
+/*changing background color form white*/
+    background-color:#f1eccd;
+    border-radius: 25px;
+    width:80%;
+}
+/*now using placeholder property to change color of placholder text and making it consitent accross the browser by use of prefix*/
+input[type="search"]::-webkit-input-placeholder{
+    color:#bfbaae;
+}
+input[type="search"]:-moz-placeholder { /* Firefox 18- */
+   color: #bfbaae;
+}
+input[type="search"]::-moz-placeholder {  /* Firefox 19+ */
+   color: #bfbaae;
+}
+input[type="search"]:-ms-input-placeholder {  /* interner explorer*/
+   color: #bfbaae;
+}
+
+/* List Styeles*/
+ul{
+  padding-left: 0;
+}
+ul li{
+  list-style: none;
+}
+.mainStyleList{
+  background-color: #e98906;
+    border: 1px solid #f7931e;
+  
+  color: #ffffff;
+  font-weight: bold;
+  padding:15px 5px;
+  font-size: 20px;
+}
+.normalListStyle{
+ 
+  padding:20px;
+
+  border: 1px solid  #efecc6;
+  background: #fcd9b2;
+  font-weight: bold;
+  color: #000000;
+}
+a, a:visited,a:link,a:active, a:hover{
+  text-decoration: none;
+}
+.yourSearch{
+    border: 1px solid #B3B3B3;
+  background: #eeeeee;
+  color: #3E3E3E;
+  font-weight: bold;
+  padding: 5px 0;
+
+}
+.headerBackground{
+  background-color: #bc6707;
+  color:#fff;
+  padding-right: 25px;
+  font-size: 10px;
+}
+.picImageSection{
+  margin-top: 65px;
+}
+.iconHover a{
+  color:#fff;
+}
+.iconHover a:hover{
+  color:#000;
+}
+.listHoverEffects a:hover .normalListStyle{
+  background:#f5f3d0 !important;
+}
+.btn{
+  padding:0 12px;
+}
+.backIconHover a{
+  background-color: #b8b8b8;
+  color:#000;
+  border-radius: 25px;
+
+}
+.backIconHover a:hover{
+  background-color: #d6d6d6;
+}
+.strongText{
+  color:#ff9900;
+}
